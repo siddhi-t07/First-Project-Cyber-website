@@ -8,7 +8,7 @@ It validates the password based on common security rules such as length, use of 
 - Checks for special characters  
 
 ## Files
-- password_checker_basic.py 
+- password_checker.py 
 
 ## How to Run
 1. Open the project in VS Code or any Python IDE  
