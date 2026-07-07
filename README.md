@@ -17,7 +17,7 @@ A cybersecurity awareness website with an interactive password strength checker.
 The UI, styling, and JavaScript were built with AI assistance (Claude). The core logic — both the password-checking rules and the password-generation algorithm — is my own, originally written and debugged in Python (see `password_checker.py` and `password_generator.py`), then ported to JavaScript for the web version.
 
 ## Files
-- `about.html`
+- `index.html`
 - `checker.html`
 - `style.css`
 - `script.js`
