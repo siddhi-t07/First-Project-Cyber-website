@@ -1,19 +1,26 @@
-This is a simple Python project that checks the strength of a password.  
-It validates the password based on common security rules such as length, use of uppercase and lowercase letters, numbers, and special characters.
+# Cyber Made Easy
+
+A cybersecurity awareness website with an interactive password strength checker.
+
+## Pages
+- **About** — plain-language overview of core cybersecurity concepts (CIA triad, common threats)
+- **Password Checker** — real-time password strength analysis with a visual strength meter and a strong password generator
 
 ## Features
-- Checks minimum length of password  
-- Checks for uppercase and lowercase letters  
-- Checks for numbers  
-- Checks for special characters  
+- Checks minimum length, uppercase/lowercase letters, numbers, and special characters
+- Live checklist and strength meter as you type
+- Strong password generator (guarantees one of each required character type, then shuffles)
+- Brute-force attempt simulation
+- Built with HTML, CSS, and JavaScript
+
+## Note on AI assistance
+The UI, styling, and JavaScript were built with AI assistance (Claude). The core logic — both the password-checking rules and the password-generation algorithm — is my own, originally written and debugged in Python (see `password_checker.py` and `password_generator.py`), then ported to JavaScript for the web version.
 
 ## Files
-- password_checker.py 
-
-## How to Run
-1. Open the project in VS Code or any Python IDE  
-2. Run the file using:
-   python password_checker.py  
-
-## Purpose
-This project was created as a beginner-level cybersecurity project to understand password validation and basic Python concepts.
+- `about.html`
+- `checker.html`
+- `style.css`
+- `script.js`
+- `about.js`
+- `password_checker.py` — original Python password strength checker
+- `password_generator.py` — original Python password generator
