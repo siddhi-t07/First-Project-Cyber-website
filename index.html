@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Made Easy — About Cybersecurity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <span class="brand-name" data-text="Cyber Made Easy">Cyber Made Easy</span>
+    </div>
+    <nav class="site-nav">
+      <a href="about.html" class="active">About</a>
+      <a href="checker.html">Password Checker</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Cybersecurity, in<br>plain terms.</h1>
+      <p class="lede">
+        Cybersecurity is the practice of protecting systems, networks, and data
+        from unauthorized access, damage, or disruption. It isn't just firewalls
+        and antivirus software — it's a discipline built on three simple questions:
+        who can see this, who can change this, and who can it be trusted to
+        reach when it's needed.
+      </p>
+      <a href="checker.html" class="cta-btn">Try the password checker →</a>
+    </section>
+
+    <!-- CIA TRIAD -->
+    <section class="evidence">
+      <h2><span class="section-num">01</span> The CIA triad</h2>
+      <p class="section-intro">Nearly every security decision traces back to one of these three pillars.</p>
+      <div class="triad-grid">
+        <div class="triad-card reveal">
+          <span class="triad-letter">C</span>
+          <h3>Confidentiality</h3>
+          <p>Only the people who are supposed to see data can see it. Encryption, access controls, and strong passwords all serve this pillar.</p>
+        </div>
+        <div class="triad-card reveal">
+          <span class="triad-letter">I</span>
+          <h3>Integrity</h3>
+          <p>Data stays accurate and unaltered unless someone with permission changes it. Checksums and digital signatures protect this.</p>
+        </div>
+        <div class="triad-card reveal">
+          <span class="triad-letter">A</span>
+          <h3>Availability</h3>
+          <p>Systems and data are accessible to authorized users when they need them. Backups and redundancy exist because of this pillar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMON THREATS -->
+    <section class="notes">
+      <h2><span class="section-num">02</span> Common threats you'll actually encounter</h2>
+      <div class="notes-grid threat-grid">
+        <div class="note-card reveal">
+          <h3>Phishing</h3>
+          <p>Fake emails or messages designed to trick you into handing over credentials or clicking a malicious link. Still the most common entry point for breaches.</p>
+        </div>
+        <div class="note-card reveal">
+          <h3>Malware</h3>
+          <p>Software built to damage, disrupt, or gain unauthorized access to a system — viruses, worms, spyware, and trojans all fall under this umbrella.</p>
+        </div>
+        <div class="note-card reveal">
+          <h3>Ransomware</h3>
+          <p>Malware that encrypts a victim's files and demands payment for the decryption key. Backups are the most reliable defense.</p>
+        </div>
+        <div class="note-card reveal">
+          <h3>Social engineering</h3>
+          <p>Manipulating people, not systems, into breaking normal security procedure — often more effective than any technical exploit.</p>
+        </div>
+        <div class="note-card reveal">
+          <h3>Brute-force attacks</h3>
+          <p>Systematically trying passwords until one works. This is exactly what the crack-time estimate on the Password Checker page models.</p>
+        </div>
+        <div class="note-card reveal">
+          <h3>Man-in-the-middle</h3>
+          <p>An attacker secretly intercepts communication between two parties. HTTPS and encrypted connections exist to close this gap.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY IT MATTERS -->
+    <section class="evidence">
+      <h2><span class="section-num">03</span> Why it matters to you, specifically</h2>
+      <p class="section-intro">
+        Most people think of cybersecurity as a problem for governments and big
+        companies. In practice, the weakest point in almost every system is an
+        individual's password, and that's a problem anyone can fix in about
+        thirty seconds. That's the whole premise behind the tool on the next page:
+        to check whether your password is as strong as you think, or not.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for a college project — an introductory overview of core cybersecurity concepts.</p>
+  </footer>
+
+<script src="about.js"></script>
+</body>
+</html>
