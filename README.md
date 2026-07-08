@@ -24,3 +24,6 @@ The UI, styling, and JavaScript were built with AI assistance (Claude). The core
 - `about.js`
 - `password_checker.py` — original Python password strength checker
 - `password_generator.py` — original Python password generator
+
+## Website
+https://siddhi-t07.github.io/cyber-made-easy/
